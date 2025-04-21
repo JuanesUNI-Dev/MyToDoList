@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola mundo Queonda</title>
-    <link rel="stylesheet" href="style.css">
+    <title>ListNote</title>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-    <h1>Imove <br> </h1>
-    <h2>You move</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium amet excepturi iste officiis a
-       accusantium accusamus minus ipsa quasi repellendus consequatur placeat iusto dolore, error animi molestiae perspiciatis possimus corrupti corporis.
-    </p>
+    <h1 class="title">You Got Things to DO! <br> </h1>
+    <h2 class="subtitle">Like :</h2>
+    <div class="container">
+        
+        <input type="text" name="newtarea" id="newtarea" placeholder="Escribe una nueva tarea...">
+        <button id="botonAñadir" >AÑADIR TAREA</button>
+        <div class="tareas" id="tareas"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -24,4 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
             inputTarea.value = "";
         }
     });
+    inputTarea.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+            botonAñadir.click();
+        }
+    });
 });
